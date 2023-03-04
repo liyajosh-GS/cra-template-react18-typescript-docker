@@ -3,6 +3,7 @@
 React TypeScript Docker Boilerplate is a starter project for building scalable and maintainable web applications with React 18, TypeScript, Redux and Docker. This boilerplate provides a robust and configurable development environment that supports hot-reloading, testing, linting, and building of React applications in a containerized environment. With TypeScript, developers can benefit from a statically-typed language that provides better type-checking and IDE support, resulting in fewer runtime errors and faster development cycles. Use this boilerplate to jumpstart your React projects and streamline your development workflow.
 
 ## What is Included?
+
 - [React Js](https://www.npmjs.com/package/react)
 - [React Redux](https://www.npmjs.com/package/react-redux)
 - [ReduxJs Toolkit](https://www.npmjs.com/package/@reduxjs/toolkit)
@@ -52,16 +53,18 @@ Before you can run the Dockerized version of this app, you'll need to have the f
 
 1. Build the Docker image:
 
-  ```sh
-  docker build -t <image-name> .
-  ```
+```sh
+docker build -t <image-name> .
+```
+
 This will build a Docker image based on the `Dockerfile` in the root directory of the project.
 
 2. Run the Docker container:
 
-  ```sh
-  docker run -it -p 3000:3000 <image-name>
-  ```
+```sh
+docker run -it -p 3000:3000 <image-name>
+```
+
 This will start the container and map port 3000 on the host to port 3000 in the container. You can access the application at `http://localhost:3000`.
 
 ### Docker Configuration
@@ -83,7 +86,7 @@ If you encounter any issues while running the Dockerized version of this app, tr
   ```sh
   docker logs <container-id>
   ```
-  
+
 This will show you any output or error messages from the Docker container.
 
 - If you're still having issues, try rebuilding the Docker image and restarting the Docker container.
@@ -106,7 +109,6 @@ cra-template-react18-typescript-docker/
 ├── package.json
 └── ...
 ```
-
 
 - `public/`: Contains the HTML file and other static assets used in the application.
 - `src/`: Contains the source code of the application.
