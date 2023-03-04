@@ -8,7 +8,7 @@
     "create-react-app",
     "template",
     "boilerplate",
-    "state-management",
+    "redux",
     "axios",
     "material-ui",
     "eslint",
