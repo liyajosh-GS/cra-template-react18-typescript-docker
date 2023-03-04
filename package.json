@@ -1,5 +1,6 @@
 {
   "name": "cra-template-react18-typescript-redux-docker",
+  "description": "React TypeScript Docker Boilerplate is a starter project for building scalable and maintainable web applications with React 18, TypeScript, Redux and Docker. This boilerplate provides a robust and configurable development environment that supports hot-reloading, testing, linting, and building of React applications in a containerized environment. With TypeScript, developers can benefit from a statically-typed language that provides better type-checking and IDE support, resulting in fewer runtime errors and faster development cycles. Use this boilerplate to jumpstart your React projects and streamline your development workflow.",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -20,22 +21,18 @@
     "react-redux": "8.0.5",
     "react-router-dom": "5.3.4",
     "react-scripts": "^5.0.1",
-    "redux-first-router": "2.1.5",
     "typescript": "4.9.5",
     "web-vitals": "3.1.1"
   },
   "devDependencies": {
-    "@cfaester/enzyme-adapter-react-18": "0.6.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@testing-library/user-event": "^14.4.3",
     "@types/autosuggest-highlight": "3.2.0",
-    "@types/enzyme": "3.10.12",
     "@types/jest": "26.0.24",
     "@types/lodash": "4.14.191",
     "@types/node": "18.14.2",
     "@types/react-router-dom": "5.3.3",
-    "@types/redux-first-router": "2.1.8",
     "concurrently": "7.6.0",
     "cross-env": "7.0.3",
     "enzyme": "3.11.0",

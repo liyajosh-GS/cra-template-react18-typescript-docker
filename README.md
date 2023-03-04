@@ -2,12 +2,32 @@
 
 React TypeScript Docker Boilerplate is a starter project for building scalable and maintainable web applications with React 18, TypeScript, Redux and Docker. This boilerplate provides a robust and configurable development environment that supports hot-reloading, testing, linting, and building of React applications in a containerized environment. With TypeScript, developers can benefit from a statically-typed language that provides better type-checking and IDE support, resulting in fewer runtime errors and faster development cycles. Use this boilerplate to jumpstart your React projects and streamline your development workflow.
 
-## Getting Started
+## What is Included?
+- [React Js](https://www.npmjs.com/package/react)
+- [React Redux](https://www.npmjs.com/package/react-redux)
+- [ReduxJs Toolkit](https://www.npmjs.com/package/@reduxjs/toolkit)
+- [Typescript](https://www.npmjs.com/package/typescript)
+- [Material UI](https://mui.com/)
+- [Eslint](https://www.npmjs.com/package/eslint)
+- [Prettier](https://www.npmjs.com/package/prettier)
+- [React Testing Library](https://testing-library.com/)
+
+## Using the template via NPM
+
+To use this template within your project, add `--template react18-typescript-redux-docker` when creating a new app.
+
+For example:
+
+```sh
+npx create-react-app <my-app> --template react18-typescript-redux-docker
+```
+
+## Using the template via Git
 
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/liyajosh-GS/react-typescript-docker-boilerplate.git
+git clone https://github.com/liyajosh-GS/cra-template-react18-typescript-docker.git
 ```
 
 2. Install dependencies:
@@ -73,7 +93,7 @@ This will show you any output or error messages from the Docker container.
 The folder structure is as follows:
 
 ```
-react-typescript-docker-boilerplate/
+cra-template-react18-typescript-docker/
 ├── public/
 │ ├── index.html
 │ └── ...
